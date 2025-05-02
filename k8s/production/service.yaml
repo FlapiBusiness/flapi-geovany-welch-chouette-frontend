@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: prod-customerName-projectName-frontend-service
-  namespace: prod-customerName-projectName-frontend
+  name: prod-geovany-welch-chouette-frontend-service
+  namespace: prod-geovany-welch-chouette-frontend
 spec:
   ports:
     - port: 3000
       targetPort: 3000
   selector:
-    app: prod-customerName-projectName-frontend
+    app: prod-geovany-welch-chouette-frontend
